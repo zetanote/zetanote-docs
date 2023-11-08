@@ -4,22 +4,27 @@ layout: home
 
 hero:
   name: "Zetanote Docs"
-  text: "Public docs for Zetanote."
-  tagline: My great project tagline
+  text: "Automate Workflows for Your Knowledge"
+  tagline: Learn how to get the most out of Zetanote.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Read the Docs
+      link: /guide/introduction/what-is-zetanote
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Recipes
+      link: /recipes/introduction/overview
+  image:
+    src: /zetanote-logo-docs.png
+    alt: Zetanote
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📝
+    title: Transform Your Notes
+    details: Easily access and organize both structured and unstructured data stored in Zetanote.
+  - icon: 🤖
+    title: Integrate Anything
+    details: Augment Zetanote's functionality with external APIs, including LLMs such as ChatGPT.
+  - icon: 🎯
+    title: Stay Focused
+    details: Stop losing your focus finding the right note to open. The right note is just a command away.
 ---
-
