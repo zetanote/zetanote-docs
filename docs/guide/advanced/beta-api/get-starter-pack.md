@@ -5,13 +5,13 @@ Get the starter pack.
 ## Signature
 
 ```TypeScript
-getStarterPack(): {
+function getStarterPack(): {
   nextStep: Element[];
   nodes: {
     type: "Note" | "Script";
     id: string;
   }[];
-}
+};
 ```
 
 ## Parameters
