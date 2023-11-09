@@ -249,6 +249,18 @@ export default defineConfig({
   /* prettier-ignore */
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/zetanote-favicon-docs.png' }],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-HXE6WBTWWP' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HXE6WBTWWP');`
+    ]
   ],
 
   themeConfig: {
