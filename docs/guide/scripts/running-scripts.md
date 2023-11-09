@@ -7,7 +7,7 @@ Once we have created and populated a script, we can invoke it using a _code cell
 To use the script created in the [last section](/guide/scripts/writing-scripts), spawn a code cell and type `todo()` into it, then press <kbd>Shift</kbd> + <kbd>Enter</kbd> to run the code cell. When we first run it, it should create and open a new todo list for today. On subsequent runs, it will open up the same todo list until the next day.
 
 ::: tip
-If you're familiar with slash commands, you can think of a code cell as a much more powerful version of a slash command.
+If you're familiar with slash commands, you can think of a code cell as a more powerful version of a slash command.
 :::
 
 ## Using a shortcut cell
@@ -17,7 +17,7 @@ Similar to a code cell, a _shortcut cell_ can be spawned within a note. This can
 You can add or remove shortcuts through the script menu dropdown. You can also add, remove, or rearrange shortcuts through settings.
 
 ::: tip
-You cannot pass any arguments into a shortcut script. As such, scripts that don't require any parameters that are frequently used are ideal candidates for shortcuts.
+You cannot pass any arguments into a shortcut script. Hence, scripts that don't have any required parameters that are frequently used are ideal candidates for shortcuts.
 :::
 
 ## Using a button
@@ -32,3 +32,11 @@ const button = zeta.v1.element.button({
 
 zeta.v1.api.insert(button);
 ```
+
+## Sharing scripts
+
+You can share your scripts with the Zetanote community or use scripts that are written by other users. If you come up with a useful workflow automation, consider sharing it so that others can benefit from it as well!
+
+::: danger
+If you're going to use a script written by someone else, make sure you fully understand what the script does. Do not use scripts from authors you don't trust.
+:::
