@@ -288,5 +288,14 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/zetanote/zetanote-docs" },
     ],
+
+    search: {
+      provider: "algolia",
+      options: {
+        appId: "NVRGPJD6PA",
+        apiKey: "c0f235e29804146b60ae54e6cd0863dc",
+        indexName: "zetacom",
+      },
+    },
   },
 });
