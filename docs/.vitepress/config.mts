@@ -1,5 +1,13 @@
 import { defineConfig } from "vitepress";
 
+// NOTE(legal-links)
+const PRIVACY_POLICY_URL =
+  "https://zetanote.notion.site/Zetanote-Privacy-Policy-9a073d220b3e47c188bf4dccb4a9009d";
+
+// NOTE(legal-links)
+const TERMS_OF_SERVICE_URL =
+  "https://zetanote.notion.site/Zetanote-Terms-of-Service-0742dd24fbc446f2b58455c0f55ee1ff";
+
 function sidebarGuide() {
   return [
     {
@@ -296,6 +304,15 @@ export default defineConfig({
         apiKey: "c0f235e29804146b60ae54e6cd0863dc",
         indexName: "zetacom",
       },
+    },
+
+    footer: {
+      message: [
+        `<a href="${PRIVACY_POLICY_URL}" target="_blank" rel="noreferrer">Privacy</a>`,
+        `<a href="${TERMS_OF_SERVICE_URL}" target="_blank" rel="noreferrer">Terms</a>`,
+      ].join(" | "),
+
+      copyright: "© 2024-present Zetanote LLC",
     },
   },
 });
