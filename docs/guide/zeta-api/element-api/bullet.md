@@ -5,12 +5,16 @@ Create a bullet element. Bullet elements have a bullet in front of them.
 ## Signature
 
 ```TypeScript
-function bullet(content: string | RichToken | RichText): Element;
+function bullet(
+  content: string | RichToken | RichText,
+  indent?: number
+): Element;
 ```
 
 ## Parameters
 
 - `content`: The content of the bullet.
+- `indent`: Optional indent level of the bullet.
 
 ## Returns
 

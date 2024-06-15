@@ -1,6 +1,6 @@
 # Insert
 
-Insert elements at the current position of the code cell.
+Insert elements at the current position of the executable block (e.g. code cell).
 
 ## Signature
 
@@ -14,7 +14,7 @@ function insert(
 ## Parameters
 
 - `elements`: One or more elements to insert. Refer to the [Element API](/guide/zeta-api/element-api/overview).
-- `isAbove`: Optional flag for whether the elements should be inserted above or below the code cell.
+- `isAbove`: Optional flag for whether the elements should be inserted above or below the executable block.
 
 ## Returns
 

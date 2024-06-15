@@ -1,6 +1,6 @@
 # Set Output
 
-Output elements inside an executable block such as a code cell.
+Output elements inside an executable block (e.g. code cell).
 
 ## Signature
 
