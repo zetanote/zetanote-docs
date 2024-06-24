@@ -9,7 +9,7 @@ You can apply various inline formatting (if you're a Mac user, you can also use 
 - **Bold** by pressing <kbd>Ctrl</kbd> + <kbd>b</kbd>.
 - <mark>Highlight</mark> by pressing <kbd>Ctrl</kbd> + <kbd>h</kbd>.
 - _Italicize_ by pressing <kbd>Ctrl</kbd> + <kbd>i</kbd>.
-- <kbd>Kbd</kbd> by pressing <kbd>Ctrl</kbd> + <kbd>k</kbd>.
+- <kbd>Kbd</kbd> by pressing <kbd>Ctrl</kbd> + <kbd>d</kbd>.
 - <u>Underline</u> by pressing <kbd>Ctrl</kbd> + <kbd>u</kbd>.
 
 You can format `code` by wrapping text with the <kbd>`</kbd> character, or format ~~strikethrough~~ by wrapping text with the <kbd>~</kbd> character.
