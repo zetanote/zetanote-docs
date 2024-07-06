@@ -9,7 +9,11 @@ function post(
   url: string,
   data: any,
   config?: AxiosRequestConfig
-): Promise<any>;
+): Promise<{
+  headers: Record<string, string>;
+  status: number;
+  data: any;
+}>;
 ```
 
 ## Parameters
@@ -20,7 +24,7 @@ function post(
 
 ## Returns
 
-- The response data.
+- The response object.
 
 ## Examples
 

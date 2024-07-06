@@ -8,7 +8,11 @@ Send an HTTP GET request.
 function get(
   url: string,
   config?: AxiosRequestConfig
-): Promise<any>;
+): Promise<{
+  headers: Record<string, string>;
+  status: number;
+  data: any;
+}>;
 ```
 
 ## Parameters
@@ -18,7 +22,7 @@ function get(
 
 ## Returns
 
-- The response data.
+- The response object.
 
 ## Examples
 
