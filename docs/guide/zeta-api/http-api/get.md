@@ -27,7 +27,7 @@ function get(
 ## Examples
 
 ```TypeScript
-const data = await zeta.v1.http.get(
+const res = await zeta.v1.http.get(
   "https://api.dictionaryapi.dev/api/v2/entries/en/equanimity"
 );
 ```

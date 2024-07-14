@@ -87,6 +87,7 @@ function (args) {
 
     map: map ? map : (res) => {
       return res
+        .data
         .choices[0]
         .message
         .content

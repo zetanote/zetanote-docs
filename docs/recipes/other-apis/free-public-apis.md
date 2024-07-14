@@ -15,7 +15,7 @@ async function () {
   const { setOutput } = zeta.v1.ui;
   const { get } = zeta.v1.http;
 
-  const results = await get([
+  const { data } = await get([
     "https://api.quotable.io/quotes/random",
     "?tags=inspirational",
   ].join(""));
@@ -23,7 +23,7 @@ async function () {
   const {
     author,
     content,
-  } = results[0];
+  } = data[0];
 
   setOutput(quote(`"${content}" - ${author}`));
 }

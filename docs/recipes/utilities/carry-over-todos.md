@@ -56,12 +56,12 @@ async function () {
     }
   }
 
-  const results = await get([
+  const { data } = await get([
     "https://api.quotable.io/quotes/random",
     "?tags=inspirational",
   ].join(""));
 
-  const res = results[0];
+  const res = data[0];
 
   const inspirationalQuote =
     quote(`"${res.content}" - ${res.author}`);

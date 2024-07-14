@@ -40,12 +40,12 @@ async function (name = "Zetanote") {
   const { setOutput } = zeta.v1.ui;
   const { post } = zeta.v1.http;
 
-  const { message } = await post(
+  const { data } = await post(
     "http://localhost:8080/api/hello",
     { name }
   );
 
-  setOutput(paragraph(message));
+  setOutput(paragraph(data.message));
 }
 ```
 
